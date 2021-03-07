@@ -9,6 +9,9 @@ package-lock.json
 *.log
 *.gz
 
+.env
+.vscode
+
 # Coveralls
 # coverage
 
