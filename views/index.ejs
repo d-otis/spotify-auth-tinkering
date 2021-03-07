@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
+<% include partials/header %> 
+<% include partials/navigation %> 
+
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
-  </body>
-</html>
+
+    <p>CLient Id: <%= process.env.CLIENT_ID %> </p>
+
+<% include partials/footer %> 
+
